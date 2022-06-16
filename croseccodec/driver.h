@@ -110,7 +110,7 @@ EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL CrosEcCodecEvtInternalDeviceControl;
 #define DBG_PNP   2
 #define DBG_IOCTL 4
 
-#if 1
+#if 0
 #define CrosEcCodecPrint(dbglevel, dbgcatagory, fmt, ...) {          \
     if (CrosEcCodecDebugLevel >= dbglevel &&                         \
         (CrosEcCodecDebugCatagories && dbgcatagory))                 \
